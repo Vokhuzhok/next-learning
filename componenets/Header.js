@@ -1,10 +1,16 @@
 import Link from "next/link";
+import style from "../styles/main.module.css";
+import Image from "next/image";
 
 const Header = ({ children }) => {
   return (
-    <>
-      <div>Некоторый хеадер</div>
-      <nav>
+    <div className={style.main}>
+      <div className={style.header}>
+        <Image src="/mainPicture.jpeg" alt="" height={200} width={300} />
+        <div className={style.hizhina}>Хижина чудес</div>
+        <div>Не звоните нам!</div>
+      </div>
+      <nav className={style.navPanel}>
         <Link href={"/"}>
           <a>Главная</a>
         </Link>
@@ -18,9 +24,11 @@ const Header = ({ children }) => {
           <a>Контакты</a>
         </Link>
       </nav>
-      <main>{children}</main>
-      <div>Некоторый футер</div>
-    </>
+      <main className={style.mainContent}>{children}</main>
+      <div className={style.footer}>
+          Проект создан в целях обучения. Все данные взяты из свободных источников.
+      </div>
+    </div>
   );
 };
 
