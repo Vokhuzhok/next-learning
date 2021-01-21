@@ -6,7 +6,7 @@ const Header = ({ children }) => {
   return (
     <div className={style.main}>
       <div className={style.header}>
-        <Image src="/mainPicture.jpeg" alt="" height={200} width={300} />
+        <Image src="/img/mainPicture.jpeg" alt="" height={200} width={300} />
         <div className={style.hizhina}>Хижина чудес</div>
         <div>Не звоните нам!</div>
       </div>

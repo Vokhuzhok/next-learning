@@ -7,8 +7,18 @@
     float:left;
     height: 200px;
     width: 300px;
+    border: black 1px solid;
 }
 
 .format {
     display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.479);
+    font-weight: 700;
+}
+
+.title {
+    background-color: rgba(0, 0, 0, 0.479);
+    width: 300px;
+    text-align: center;
 }
