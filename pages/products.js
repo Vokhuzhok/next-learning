@@ -8,6 +8,7 @@ const Products = () => {
     <Header>
       <Head>
         <title>Products | Mystery Shack</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <div>
         <div className={style.image}>
@@ -22,29 +23,26 @@ const Products = () => {
           <div className={style.format}>
             <img src="/img/S1e13_horse_riding_a_horse.jpg" alt="" />
             <div>
-              Просто фотография того как один конь оседлал другого коня, ничего необычного...
+              Просто фотография того как один конь оседлал другого коня, ничего
+              необычного...
             </div>
           </div>
           <div className={style.title}>Конь верхом на другом коне</div>
           <div className={style.format}>
             <img src="/img/Short14_fairy.jpg" alt="" />
             <div>
-              На какие бы геральдические символы это небыло бы похоже... Это фея... Обычная двухголовая фея.
+              На какие бы геральдические символы это небыло бы похоже... Это
+              фея... Обычная двухголовая фея.
             </div>
           </div>
           <div className={style.title}>Фея</div>
           <div className={style.format}>
             <img src="/img/Short14_invisible_man.jpg" alt="" />
-            <div>
-              Он давно здесь стоит...
-            </div>
+            <div>Он давно здесь стоит...</div>
           </div>
           <div className={style.title}>Человек невидимка</div>
         </div>
       </div>
-      <Link href={"/"}>
-        <button>На главную</button>
-      </Link>
     </Header>
   );
 };

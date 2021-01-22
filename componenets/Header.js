@@ -26,7 +26,8 @@ const Header = ({ children }) => {
       </nav>
       <main className={style.mainContent}>{children}</main>
       <div className={style.footer}>
-          Проект создан в целях обучения. Все данные взяты из свободных источников.
+        Проект создан в целях обучения. Все данные взяты из свободных
+        источников.
       </div>
     </div>
   );

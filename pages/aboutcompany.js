@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Header from "../componenets/Header";
 import Head from "next/head";
 
@@ -7,11 +6,9 @@ const AboutCompany = () => {
     <Header>
       <Head>
         <title>About Company | Mystery Shack</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <div>О компании</div>
-      <Link href={"/"}>
-        <button>На главную</button>
-      </Link>
     </Header>
   );
 };
