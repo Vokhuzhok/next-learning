@@ -1,0 +1,9 @@
+.loader {
+    position: fixed;
+    top:60%;
+    left: 40%;
+}
+
+.loader img {
+    border: none;
+}

@@ -16,8 +16,20 @@
     align-items: center;
 }
 
+.navPanel a {
+    transition: 200ms ease-out;
+}
+
 .navPanel :hover {
-    color:brown
+    color:rgb(243, 211, 181);
+    box-shadow: 0 0 4px 1px rgb(255, 255, 255);
+    border-radius: 7%;
+}
+
+.navPanel :active {
+    color:saddlebrown;
+    transition: 50ms;
+    box-shadow: none;
 }
 
 .footer {
@@ -42,8 +54,9 @@
 .mainContent {
     background-image: url(/img/inter.jpeg);
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    overflow-y: scroll;
 }
 
 .hizhina {

@@ -24,7 +24,7 @@ const Header = ({ children }) => {
           <a>Контакты</a>
         </Link>
       </nav>
-      <main className={style.mainContent}>{children}</main>
+      <div className={style.mainContent}>{children}</div>
       <div className={style.footer}>
         Проект создан в целях обучения. Все данные взяты из свободных
         источников.

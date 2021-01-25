@@ -1,6 +1,4 @@
 import config from "../../config/config.json";
-import request from "request";
-import axios from "axios";
 
 export default function handler(req, res) {
   if (req.method === "POST") {

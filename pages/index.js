@@ -8,8 +8,10 @@ const Index = () => {
         <title>Main | Mystery Shack</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <h1>Главная</h1>
-      <h2>Context</h2>
+      <div>
+        <h1>Главная</h1>
+        <h2>Context</h2>
+      </div>
     </Header>
   );
 };
